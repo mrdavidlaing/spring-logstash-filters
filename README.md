@@ -6,7 +6,7 @@ A set of logstash filters to parse Spring.IO log messages sent via a Loggregator
 
 * Only tested on Mac
 
-1.  Grab the repo
+#### Grab the repo
 
 ```
 git clone --recursive https://github.com/mrdavidlaing/spring-logstash-filters.git
@@ -26,7 +26,7 @@ Installation successful
 Done.  Using logstash logstash 2.2.0 from /Users/mrdavidlaing/code/mrdavidlaing/spring-logstash-filters/vendor/logstash-2.2.0
 ```
 
-2.  Build and test the filters
+#### Build and test the filters
 
 ```
 bin/test
@@ -55,7 +55,7 @@ Finished in 0.475 seconds (files took 1.41 seconds to load)
 Randomized with seed 52304
 ```
 
-3.  Add the [generated config](target/logstash-filters-spring.conf) to the `filter {}` section of your Logstash config.
+#### Add the [generated config](target/logstash-filters-spring.conf) to the `filter {}` section of your Logstash config.
 
  
 
